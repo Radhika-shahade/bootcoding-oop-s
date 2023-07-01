@@ -1,4 +1,4 @@
-package com.bootcoding.oops.abstraction;
+package com.bootcoding.oops.abstraction.chocolate;
 
 public class Child1 extends Parent {
 
