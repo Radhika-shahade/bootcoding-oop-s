@@ -17,7 +17,7 @@ public class NumberApp {
         ArmstrongService ans= new ArmstrongService();
         BufferedWriter writer = new BufferedWriter(new FileWriter("D:\\Users\\Radhika shahade\\Number.csv"));
         ArrayList<Number> numbers = new ArrayList<>();
-        for(int i = 0; i < 10; i++){
+        for(int i = 0; i < 100; i++){
            Number randomNumber = ns.getRandomNumber();
             eos.evenOrOdd(randomNumber);
             pns.primeNumber(randomNumber);
